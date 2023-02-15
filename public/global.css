@@ -11,3 +11,17 @@ body{
 form{
 	color: white;
 }
+button{
+	all: unset;
+	padding: 12px;
+	width: 100px;
+	border: solid #04a9e8 3px;
+	border-radius: 20px;
+	text-align: center;
+	color: #04a9e8;
+	font-weight: 800;
+}
+button:hover{
+	background-color: #04a9e8;
+	color: #24292f;
+}
