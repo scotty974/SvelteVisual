@@ -1,5 +1,5 @@
 <script>
-import Three from "./three.svelte";
+import Canva from "./canva.svelte";
 let songSave = null;
 let checked = false
 let getNothing = false
@@ -42,7 +42,7 @@ function song(event){
 		<div class="row">
 			<div id="getSong">
 				<h1 class="text-light">Votre Musique : {songSave}</h1>
-				<Three />
+				<Canva />
 			</div>
 		</div>
 	</div>
