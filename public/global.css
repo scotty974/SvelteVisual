@@ -1,0 +1,13 @@
+body{
+	background-color:#24292f ;
+}
+#getSong{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+form{
+	color: white;
+}
